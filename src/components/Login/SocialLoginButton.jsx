@@ -8,7 +8,7 @@ const SocialLoginButton = () => {
 
   const handleSocialLogin = async provider => {
     setError(null);
-    window.location.href = `https://api.i11a506.ssafy.io/auth/login/oauth2/authorization/${provider}`;
+    window.location.href = `https://api.dino9881.com/auth/login/oauth2/authorization/${provider}`;
   };
 
   return (

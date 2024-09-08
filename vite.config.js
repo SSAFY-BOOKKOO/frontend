@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://api.i11a506.ssafy.io',
+        target: 'https://api.dino9881.com',
         changeOrigin: true,
         rewrite: path => path.replace(/^\/api/, ''),
       },

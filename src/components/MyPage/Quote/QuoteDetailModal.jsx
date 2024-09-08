@@ -11,7 +11,7 @@ import { useAtom } from 'jotai';
 import { showAlertAtom } from '@atoms/alertAtom';
 
 const DEFAULT_BACKGROUND_URL =
-  'https://api.i11a506.ssafy.io/commons/file/bookkoobookkoo-quote/Default.jpg';
+  'https://api.dino9881.com/commons/file/bookkoobookkoo-quote/Default.jpg';
 
 const QuoteDetailModal = ({
   quoteId,

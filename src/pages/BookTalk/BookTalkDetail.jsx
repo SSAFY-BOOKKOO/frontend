@@ -96,7 +96,7 @@ const BookTalkDetail = () => {
   const connect = () => {
     client.current = new Client({
       webSocketFactory: () =>
-        new SockJS('https://api.i11a506.ssafy.io/booktalks/connect'),
+        new SockJS('https://api.dino9881.com/booktalks/connect'),
       reconnectDelay: 5000,
       heartbeatIncoming: 4000,
       heartbeatOutgoing: 4000,

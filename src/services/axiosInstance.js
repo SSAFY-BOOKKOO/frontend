@@ -5,7 +5,7 @@ import { isAuthenticatedAtom } from '@atoms/authAtom';
 
 const { MODE } = import.meta.env;
 
-const baseURL = MODE === 'production' ? 'https://api.i11a506.ssafy.io' : '/api';
+const baseURL = MODE === 'production' ? 'https://api.dino9881.com' : '/api';
 
 const createAxiosInstance = (useAuth = false) => {
   const instance = axios.create({
